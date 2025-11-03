@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods for Adding CSS</title>
+  </head>
+  <body>
+    <div>Style me via the external method!</div>
+    <p>I would like to be styled with the internal method, please.</p>
+    <button>Inline Method</button>
+  </body>
+</html>
+<!--TASK #1-->
+<!--* `div`: a red background, white text, a font size of 32px, center aligned, and bold-->
+<!--TASK #2-->
+<!--* `p`: a green background, white text, and a font size of 18px-->
+<!--TASK #3-->
+<!--* `button`: an orange background and a font size of 18px-->
+
+<!--Method #1: Internal CSS-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods for Adding CSS</title>
+    <style>
+      /*CSS internal in HTML file*/
+      
+      /*TASK #1*/
+      /* `div`: a red background, white text, a font size of 32px, center aligned, and bold*/
+      div{
+        color:white;
+        background-color:red;
+        font-size: 32px;
+        text-align: center;
+        font-weight:bold;
+        }
+      /*TASK #2*/
+      /* `p`: a green background, white text, and a font size of 18px*/
+      p{
+        color:white;
+        background-color: green;
+        font-size: 18px;
+        }
+      /*TASK #3*/
+      /*`button`: an orange background and a font size of 18px*/
+      button{
+        background-color: orange;
+        font-size: 18px;
+        }
+    </style>
+  </head>
+  <body>
+    <div>Style me via the external method!</div>
+    <p>I would like to be styled with the internal method, please.</p>
+    <button>Inline Method</button>
+  </body>
+</html>
+<!--Method #2: In line CSS-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods for Adding CSS</title>
+  </head>
+  <body>
+    <div style="color:white; background-color:red; font-size: 32px; text-align: center; font-weight:bold;">Style me via the external method!</div>
+    <p style="color:white; background-color: green; font-size: 18px;">I would like to be styled with the internal method, please.</p>
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
+  </body>
+</html>
+<!--Method #3: External CSS-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Where we add the external CSS page in the head section of the HTML file-->
+    <link rel="sytlesheet" href="external.css">
+    <title>Methods for Adding CSS</title>
+  </head>
+  <body>
+    <div>Style me via the external method!</div>
+    <p>I would like to be styled with the internal method, please.</p>
+    <button>Inline Method</button>
+  </body>
+</html>
