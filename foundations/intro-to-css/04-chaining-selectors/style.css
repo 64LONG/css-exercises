@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+
+/*
+avatar and proportioned classes ->300 pixels wide and orginal height
+avatar and distorted classes -> 200 pixels wide and height twice as big as its width
+*/
+
+.avatar.proportioned{
+    width: 300px;
+}
+
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
